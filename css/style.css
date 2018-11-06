@@ -1,0 +1,200 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: purple; */
+    /* background-image: url("https://thumbs.gfycat.com/MaleGloomyGhostshrimp-max-1mb.gif"); */
+    background-size: 100%;
+    color: aquamarine;
+}
+
+* {
+    transition-duration: 0.5s;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+    font-size: 30px;
+    display: inline-block;
+}
+    /* background-color: purple; */
+
+    /* background-color: purple; */
+
+    /* background-color: purple; */
+;
+    /* background-color: purple; */
+
+    /* background-color: purple; */
+
+    /* background-color: purple; */
+
+    /* background-color: purple; */
+
+    /* background-color: purple; */
+
+    /* background-color: purple; */
+
+    font-weight: bold;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.labels {
+    display: inline-block;
+    width: 170px;
+}
+
+video {
+    display: none;
+}
+
+article {
+    width: 750px;
+    height: 400px;
+    border: 2px dashed green;
+}
+
+article p {
+    display: inline-block;
+    width: 30%;
+    padding-left: 10px;
+}
+
+img {
+    display: inline-block;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+table {
+    background-color: blue;
+}
+
+h2 {
+    color: brown;
+    font-size: 50px;
+}
+
+h1:hover {
+
+}
+
+
+/******************** EXERCICE TETE ************/
+
+#visage {
+    width: 600px;
+    border: 2px solid black;
+    padding-top: 170px;
+}
+
+#tete,.oreilles {
+    background-color: pink;
+}
+
+#tete {
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.yeux {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    border: 20px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: -290px;
+}
+
+#oeilGauche {
+    left: 201px;
+} 
+
+#oeilDroit {
+    left: 260px; 
+}
+
+#bouche {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    position: relative;
+    bottom: 240px;
+    left: 250px;
+    border-radius: 20%;
+}
+
+#bouche:hover {
+    height: 10px;
+}
+
+#nez {
+    color: black;
+    position: relative;
+    top: -270px;
+    left: 277px;
+    font-size: 4em;
+}
+
+.oreilles {
+    font-size: 3em;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 440px;
+    border-radius: 40%;
+}
+
+#oreilleGauche {
+    left: 110px;
+}
+
+#oreilleDroite {
+    bottom: 490px;
+    left: 440px;
+
+}
+
+#body {
+    width: 500px;
+}
+
+#coiffure {
+    position: relative;
+    width: 380px;
+    bottom: 807px;
+    left: 115px;
+}
+
+#barbe {
+    position: absolute;
+}
+
+div#oeilDroit:hover {
+    width: 40px;
+    height: 40px;
+}
+
+div#oeilGauche:hover {
+    width: 40px;
+    height: 40px;
+}
+
+

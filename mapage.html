@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Première page</title>
+</head>
+<body>
+
+<section id="visage">
+    <div id="tete"></div>
+    <div class="yeux" id="oeilGauche"></div>
+    <div class="yeux" id="oeilDroit"></div>
+    <div id="nez">U</div>
+    <div id="bouche"></div>
+    <div class="oreilles" id="oreilleGauche"></div>
+    <div class="oreilles" id="oreilleDroite"></div>
+    <img id="coiffure" src="img/4.png" alt="coiffure">
+
+</section>
+<!-- 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://fr.wikipedia.org/wiki/Pelote_basque"> La pelote basque</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/Pays_basque">Le pays basque</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/Basques">Les Basques</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/Basque">Basques</a></li>
+                <li><a href="https://www.larousse.fr/dictionnaires/francais/F_A_Q_/32862"> FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Hall of Fame de la pelote basque</h1>
+
+        <video src="vids/The-Hill/MP4/The-Hill.mp4" width="500px" controls muted loop></video>
+
+        <form action="" method="GET">
+            
+            <fieldset>
+                <legend>Infos de connexion</legend>
+           
+                <label class="labels" for="userName">Nom d'utilisateur :</label>
+                <input type="text" name="userName" id="userName" required placeholder="Votre nom" autofocus><br>
+                <label class="labels" for="userEmail">Email :</label>
+                <input type="email" name="userEmail" id="userEmail" placeholder="Votre adresse email" required><br>
+                <label class="labels" for="userPass">Mot de passe :</label>
+                <input type="password" name="userPass" id="userPass" placeholder="Choisissez un mot de passe" required><br>
+              
+            </fieldset>
+            <hr>
+
+            <fieldset>
+                <legend>Infos perso</legend>
+
+                <label class="labels" for="userAge">Votre âge :</label>
+                <input type="number" name="userAge" id="userAge" min="18" max="100" required><br><br>
+
+                Civilité :
+                <input type="radio" name="civility" id="mme" value="Madame"required>
+                <label for="mme">Madame</label>
+                <input type="radio" name="civility" id="m." value="Monsieur"required>
+                <label for="m.">Monsieur</label><br><br>
+
+                Vos loisirs :
+                <input type="checkbox" name="painting" id="hobbies">
+                <label for="hobbies">Peinture</label>
+                <input type="checkbox" name="sculpture" id="hobbies">
+                <label for="hobbies">Sculpture</label>
+                <input type="checkbox" name="reading" id="hobbies">
+                <label for="hobbies">Lecture</label><br><br>
+
+                <label for="presentation">Parlez-nous de vous :</label><br>
+                <textarea id="presentation" cols="50" rows="10" maxlength="256" placeholder="256 caractères max"></textarea><br><br>
+                <label for="departement">Département</label>
+                <select name="departement" id="departement">
+                    <optgroup label="Pays de la Loire">
+                        <option value="44">44</option>
+                        <option value="85">85</option>
+                        <option value="72">72</option>
+                        <option value="53">53</option>
+                        <option value="49">49</option>
+                    </optgroup>
+                </select>
+                <br>
+                <input type="range">
+                <br>
+                <input type="date">
+                <br>
+                <input type="file" multiple>
+
+                <br>
+                <button type="submit">Envoyer</button>
+
+            </fieldset>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Lundi</td>
+                    <td>Mardi</td>
+                    <td>Mercredi</td>
+                    <td>Jeudi</td>
+                    <td>Vendredi</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sémaphore</td>
+                    <td>Pas de Sémaphore</td>
+                    <td>Pas de Sémaphore</td>
+                    <td>Pas de Sémaphore</td>
+                    <td>Diète</td>
+                </tr>
+                <tr>
+                    <td>Oui</td>
+                    <td>Oui</td>
+                    <td>Non</td>
+                    <td>Oui</td>
+                 <td>Peut être</td>
+                </tr>
+             </tbody>
+        </table>
+
+
+        <article>
+            <h2>Éric Irastorza</h2>
+            <p>Mollit tempor ea non sunt do excepteur. <strong>Dolor velit minim tempor</strong> exercitation minim. Magna ut cillum reprehenderit duis voluptate. Officia do eu excepteur aute do eiusmod veniam. Nulla consectetur occaecat cillum <em>nostrud</em>  fugiat culpa sit amet pariatur amet sit nostrud.</p>
+            <img title="Joueur" src="img/1.jpg" alt="Paysage">
+        </article>
+        <div class="clear"></div>
+        <article>
+            <h2>Fernand Forgues</h2>
+            <p>Mollit tempor ea non sunt do excepteur. <strong>Dolor velit minim tempor</strong> exercitation minim. Magna ut cillum reprehenderit duis voluptate. Officia do eu excepteur aute do eiusmod veniam. Nulla consectetur occaecat cillum <em>nostrud</em>  fugiat culpa sit amet pariatur amet sit nostrud.</p>
+            <img title="Joueur" src="img/2.jpg" alt="Paysage">   
+        </article>
+        <div class="clear"></div>
+
+        <article>
+            <h2>Joseph Apesteguy</h2>
+            <p>Mollit tempor ea non sunt do excepteur. <strong>Dolor velit minim tempor</strong> exercitation minim. Magna ut cillum reprehenderit duis voluptate. Officia do eu excepteur aute do eiusmod veniam. Nulla consectetur occaecat cillum <em>nostrud</em>  fugiat culpa sit amet pariatur amet sit nostrud.</p>
+            <img title="Joueur" src="img/3.jpg" alt="Joueur">   
+        </article>
+        <div class="clear"></div>
+
+        <ul>
+            <li>Le Cantal</li>
+            <li>La Lozère</li>
+            <li>Le Pas-de-Calais</li>
+        </ul>
+        <ol>
+            <li>Nantes</li>
+            <li>La-Roche-sur-Yon</li>
+            <li>Ste-Mère-Eglise</li>
+            <li>Le Mans</li>
+            <li>Paris</li>
+        </ol>
+
+    </main> 
+
+    <footer>
+
+        <small> Formations à Bordeaux - Formations à Bruxelles - Formations à Geneve - Formations à Lille - Formations à Luxembourg - Formations à Lyon - Formations à Marseille - Formations à Montpellier - Formations à Nantes - Formations à Nice - Formations à Paris - Formations à Rennes - Formations à Strasbourg - Formations à Toulouse - Formations à Distance </small>
+
+    </footer>
+  -->
+</body>
+</html>

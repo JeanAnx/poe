@@ -1,0 +1,84 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    transition: all 0.2s ease;
+
+}
+
+#visage {
+
+    width: 600px;
+    border: 2px solid black;
+    padding-top: 170px;
+}
+
+#tete,.oreilles {
+    background-color: pink;
+}
+
+#tete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#tete div {
+    justify-content: space-between;
+}
+
+.yeux {
+    display: flex;
+    width: 160px;
+    
+
+}
+
+#oeilGauche , #oeilDroit {
+    background-color: black;
+    border: 20px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+} 
+
+
+#bouche {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    border-radius: 20%;
+}
+
+#tete:hover #bouche {
+    padding-top: 20px;
+}
+
+
+#nez {
+    color: black;
+    font-size: 4em;
+    padding-bottom: 10px;
+}
+
+.oreilles {
+    display: flex;
+    width: 380px;
+    border-radius: 20px;
+}
+
+.oreilles #oreilleGauche ,.oreilles #oreilleDroite {
+    height: 50px;
+    width: 50px;
+    border-radius: 40%;
+}
+
+#body {
+    width: 500px;
+}

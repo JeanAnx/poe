@@ -1,6 +1,9 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: 
 }
+
+
 
 * {
     transition: all 0.2s ease;
@@ -60,6 +63,15 @@ html {
     padding-top: 20px;
 }
 
+#blabla {
+    font-size: 4rem;
+    display: none;
+}
+
+#tete:hover #blabla {
+    display: inline;
+}
+
 
 #nez {
     color: black;
@@ -82,3 +94,5 @@ html {
 #body {
     width: 500px;
 }
+
+

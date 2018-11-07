@@ -1,0 +1,190 @@
+h2 {
+    text-align: center;
+}
+
+#div1 {
+    background-color: brown;
+}
+
+#div2 {
+    background-color: lime;
+}
+
+#div3 {
+    background-color: palevioletred);
+}
+
+#div4 {
+    background-color: red;
+}
+
+#div6 {
+    background-color: purple;
+}
+
+/****************** version  mobile *************************/
+@media screen and (max-width: 480px) {
+
+    #mobileFlex , #Desktop {
+        display: none;
+    }
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2em;fff
+}
+
+.clear {
+    clear: both;
+}
+
+div.blocs {
+
+    text-align: center;
+    font-size: 50px;
+    line-height: 160px;
+}
+
+#div2,#div3,#div5,#div6 {
+    width: 50%;
+    display: inline-block;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {fff
+    float: right;
+}
+
+    div {
+        background-color:rgb(55, 156, 126);
+    }
+
+
+}
+/************** VERSION Mobile grande ******************/
+
+@media screen and (min-width: 481px) {
+    
+    div.blocs {
+        line-height: 250px;%;
+        text-align: center;
+        font-size: 50px;
+    }
+        
+    #div1 {
+        background-color: grey;
+    }
+    
+    #div2 {
+        background-color: lightblue;
+    }
+    
+    #div3 {
+        background-color: palevioletred;
+    }
+
+    #div4 {
+        background-color: aquamarine;
+    }
+    
+    #div6 {
+        background-color: olivedrab;
+    }
+
+    #mobileInline , #Desktop {
+        display: none;
+    }
+
+    #mobileFlex {
+        display: block;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    div.blocs {
+        margin: 0 auto;
+        height: 250px;
+        width: 100%;
+        background-color: blue;
+        color: white;
+
+    }
+
+    #div5,#div2,#div4,#div6 {
+        width: 50%;
+    }
+
+    #div1 {
+        order: 1;
+    }
+
+    #div2 {
+        order: 3;
+    }
+
+    #div3 {
+        order: 4;
+    }
+
+    #div4 {
+        order: 5;
+    }
+
+    #div5 {
+        order: 2;
+    }
+
+    #div5 {
+        order: 2;
+    }
+
+    #div6 {
+        order: 6;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    #mobileInline , #mobileFlex {
+        display: none;
+    }
+
+    #Desktop {
+        display: block;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    #div1,#div2,#div3,#div4,#div5,#div6 {
+        width: 90%;
+    }
+
+    .blocs {
+        display: block;
+        width: 90%;
+    }
+
+}

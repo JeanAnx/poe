@@ -1,0 +1,463 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    color: black; 
+    font-size: 62.5%;
+}
+.container {
+    padding: 0;
+    margin-top: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #0072b9;
+}
+
+header .headUp {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a , h1 {
+    color: #0072b9;
+}
+
+
+.fakeBanniere {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgba(112, 150, 203, 0.45);
+    text-align: center;
+    color: white;
+}
+
+footer {
+    display: flex;
+    background-color: #0072b9;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+small {
+    display: block;
+    text-align: left;
+}
+
+/******************************************************************************************/
+/****************************************************************************************************/
+
+/*none
+ _none ____ _____ _      ______ 
+* none \|  _ \_   _| |    |  ____|
+* none| | |_) || | | |    | |__   
+* none| |  _ < | | | |    |  __|  
+* none| | |_) || |_| |____| |____ 
+* |_|  |_|\____/|____/_____|______|______|
+                                        
+*/                                  
+
+@media screen and  (max-width: 767px) {
+
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    header {
+        background-color: rgba(178, 178, 178, 0.1)
+    }
+
+    header .headUp {
+        width: 320px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .navBar {
+        display: none;
+    }
+
+    header .headUp {
+        padding-top: 15px;
+    }
+
+    .headUp h1 {
+        margin-top: 26px;
+    }
+
+    i.fas.fa-bars {
+        font-size: 4.5rem;
+        color: #0072b9;
+    }
+    
+
+    i.fab.fa-drupal {
+        color: #0072b9;
+        font-size: 6rem;
+        padding: 7px 15px 0 0;
+    }
+
+    i.fas.fa-search {
+        font-size: 1.6rem;
+        color: #0072b9;
+        padding-left: 5px;
+    }
+
+    .searchBar {
+        width: 70%;
+        text-align: right;
+    }
+
+    .searchBar input {
+        width: 70%;
+    }
+
+    /* JE CHANGE L'ORDRE DES ÉLÉMENS DU HEADER */
+
+    .logoHeader {
+        order: 1;
+    }
+
+    .titreHeader {
+        order: 2;
+    }
+
+    /**/
+
+    .fakeBanniere {
+        height: 50px;
+        font-size: 1.5rem;
+        line-height: 50px;
+    }
+
+    .breadCrumbs {
+        display: none;
+    }
+
+    .asideHome {
+        display: none;
+    }
+
+
+    /***** NEWS FEED ***/
+
+    section.newsFeed {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .newsFeed img {
+        width: 100%;
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .newsFeed article h3 {
+        font-size: 4.5vw;
+        margin-bottom: 5px;
+    }
+
+    .newsFeed article p {
+        text-align: justify;
+        font-size: 3vw;
+    }
+
+
+    /***** FOOTER *****/
+
+    footer {
+        height: 150px;
+        font-size: 3vw;
+        flex-direction: column;
+    }
+
+    .ul1 {
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .ul2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        order: -1;
+    }
+
+    i.fab.fa-facebook-square , i.fab.fa-twitter-square , i.fab.fa-instagram {
+        font-size: 4rem;
+        padding: 0 10px;
+    }
+    
+
+}
+
+
+/******************************************************************************************/
+/****************************************************************************************************/
+ /*
+___________  ___ ______ 
+|_   _| ___ \/ _ \|  _  \
+  | | | |_/ / /_\ \ | | |
+  | | |  __/|  _  | | | |
+ _| |_| |   | | | | |/ / 
+ \___/\_|   \_| |_/___/  
+  
+*/          /**/            
+                     
+
+@media screen and (min-width: 768px) {
+
+    header .headUp {
+        justify-content: center;
+    }
+
+    .logoHeader , .titreHeader , .searchBar {
+        padding: 0 5px;
+    }
+
+    i.fas.fa-search {
+        font-size: 1.7rem;
+        padding-left: 6px;
+    }
+
+    .menuMobile {
+        order: 1;
+    }
+
+    i.fas.fa-bars {
+        font-size: 5rem;
+    }
+
+}
+
+/******************************************************************************************/
+/****************************************************************************************************/
+/*
+* _____  ______  _____ _  _________ ____  _____  
+* |  __ \|  ____|/ ____| |/ /__   __/ __ \|  __ \ 
+* | |  | | |__  | (___ | ' /   | | | |  | | |__) |
+* | |  | |  __|  \___ \|  <    | | | |  | |  ___/ 
+* | |__| | |____ ____) | . \   | | | |__| | |     
+* |_____/|______|_____/|_|\_\  |_|  \____/|_|     
+*/                                             
+                                                
+
+@media screen and (min-width: 1200px) {
+
+/******************************************/
+/************ HEADER HEADER HEADER *************/
+
+h1 {
+    font-size: 2.5vw;
+}
+
+.menuMobile {
+    display: none;
+}
+
+.headUp {
+    padding: 20px 0 ;
+    justify-content: space-around;
+}
+
+i.fab.fa-drupal {
+    font-size: 15rem;
+}
+
+i.fas.fa-search {
+    font-size: 1.6rem;
+    padding-left: 5px; 
+}
+
+i.fab.fa-drupal , .titreHeader , .searchBar {
+    padding: 0 20px;
+}
+
+nav ul li {
+    padding: 0 10px;
+    font-size: 1vw;
+}
+
+
+nav ul li a:hover {
+    color: grey;
+}
+
+ul.sousLiens {
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.5);
+
+    padding: 0 20px;
+}
+
+.sousLiens li {
+    padding: 10px 0;
+    font-size: 1.4rem;
+}
+
+.lien:hover > ul.sousLiens {
+    opacity: 1;
+} 
+
+
+.fakeBanniere {
+    height: 100px;
+    margin: 30px auto 10px auto;
+    line-height: 100px;
+    font-size: 5rem;
+}
+
+.fakeBanniere h2 {
+    margin: 0;
+    display: none;
+}
+
+.fakeBanniere:hover h2 {
+    display: block;
+}
+
+.breadCrumbs {
+    height: 40px;
+    line-height: 40px;;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(178, 178, 178, 0.1);
+    color: grey;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+
+/*******************************************/
+/*********** MAIN MAIN MAIN ***********/
+
+
+.asideHome {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    border: 0.5px solid rgba(112, 150, 203, 0.45);
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 0;
+    
+}
+
+.asideHome img , .asideHome figure {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;;
+}
+
+.asideHome figcaption {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+/******NEWSFEED *****/
+
+
+.newsFeed {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.newsFeed > article {
+    width: 45%;
+}
+
+article h3 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+article > p {
+    font-size: 1.5rem;
+}
+
+article small {
+    font-style: italic;
+}
+
+article > img {
+    width: 100%;
+    display: block;
+}
+
+/***************************************/
+/************************ FOOTER ********/
+
+footer {
+    height: 200px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.ul2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.ul2 > li {
+    padding: 0 10px;
+}
+
+footer ul {
+    padding: 20px;
+}
+
+footer h4 {
+    margin: 0;
+}
+
+.ul1 {
+    font-size: 2rem;
+}
+
+.ul2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.ul2 > li {
+    padding: 0 10px;
+}
+
+i.fab.fa-facebook-square , i.fab.fa-twitter-square , i.fab.fa-instagram {
+    font-size: 5rem;
+}
+
+}

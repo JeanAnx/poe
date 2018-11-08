@@ -7,15 +7,35 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/responsiveAtelier.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+              crossorigin="anonymous"></script>
+              <script src="js/home.js"></script>
+
     <title>Document</title>
 </head>
-<body class="container">
+<body>
 
-    <header>
+    <header class="container">
 
         <div class="headUp">
             
-            <div class="menuMobile"><i class="fas fa-bars"></i></div>
+            <!-- MENU MOBILE -->
+
+            <div id="menuMobile" class="menuMobile"><i class="fas fa-bars"></i>
+            
+                <ul id="liensMobile" class="hidden">
+
+                    <li class="lienMobile"><a href="#">> Drupal 101</a></li>
+                    <li class="lienMobile"><a href="#">> Drupal & the Beatles</a></li>
+                    <li class="lienMobile"><a href="#">> Drupal à travers l'histoire</a></li>
+                    <li class="lienMobile"><a href="#">> Drupal tout simplement</a></li>
+                    <li class="lienMobile"><a href="#">> Drupal contre les ninjas</a></li>
+    
+                </ul>
+            
+            </div>
 
             <div class="logoHeader"><i class="fab fa-drupal fa-10x"></i></div>
             
@@ -35,17 +55,47 @@
                 <li class="lien">
                     <a href="#">Drupal 101</a>
                     <ul class="sousLiens">
-                        <li>Drupal</li>
-                        <li>Drupal</li>
-                        <li>Drupal</li>
-                        <li>Drupal</li>
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
                     </ul>
                 </li>
 
-                <li><a href="#">Drupal & the Beatles</a></li>
-                <li><a href="#">Drupal à travers l'histoire</a></li>
-                <li><a href="#">Drupal tout simplement</a></li>
-                <li><a href="#">Drupal Drupal & Drupal</a></li>
+                <li class="lien">
+                    <a href="#">Drupal & the Beatles</a>
+                    <ul class="sousLiens">
+                            <li><a href="#">> Drupal</a></li>
+                            <li><a href="#">> Drupal</a></li>
+                            <li><a href="#">> Drupal</a></li>
+                            <li><a href="#">> Drupal</a></li>
+                    </ul>
+                </li>
+                <li class="lien">
+                    <a href="#">Drupal à travers l'histoire</a>
+                    <ul class="sousLiens">
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                    </ul>
+                </li>
+                <li class="lien"><a href="#">Drupal tout simplement</a>
+                    <ul class="sousLiens">
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                    </ul>
+                </li>
+                <li class="lien"><a href="#">Drupal contre les ninjas</a>
+                    <ul class="sousLiens">
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                        <li><a href="#">> Drupal</a></li>
+                    </ul>
+                </li>
 
             </ul>
 
@@ -124,11 +174,11 @@
             </article>
 
         </section>
-
+        <div class="clear"></div>
 
     </main>
 
-    <footer>
+    <footer id="freeTheFooter">
 
         <ul class="ul1">
             <li>nous contacter</li>
@@ -146,4 +196,6 @@
     </footer>
     
 </body>
+
+
 </html>
